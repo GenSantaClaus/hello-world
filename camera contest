@@ -93,7 +93,7 @@ int main(int argc,char *argv[]) //讀取每格資料若正常回傳0 >0則有誤
 
 	for(int k=0;k<argc;k++)
 	{
-		FILE *fp;				// 開檔
+		FILE *fp;				// 開檔 測試1
 		fp=fopen(argv[k],"rb");	
 		fseek(fp,862144,SEEK_SET);
 		for(int i=0;i<2460;i++)
